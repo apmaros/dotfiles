@@ -1,0 +1,8 @@
+export PATH="/usr/local/bin:$PATH"
+export PATH="${LOCAL_APPS_PATH}:{$PATH}"
+
+export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home"
+
+## docker compose
+alias dc="docker-compose"
+alias dcd="docker-compose up -d"
