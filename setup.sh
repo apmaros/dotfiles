@@ -21,8 +21,18 @@ brew install gnupg
 # zsh
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
+# jq
+brew install jq
+
 # tmux
 brew install tmux
+
+# python and pip
+brew install python3
+
+# conda python environment
+brew cask install anaconda
+
 
 # copy dotfiles
 cp .gitconfig .tmux.conf .zshrc.local .vimrc $HOME

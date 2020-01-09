@@ -1,4 +1,6 @@
 export PATH="/usr/local/bin:$PATH"
+export PATH="/usr/local/anaconda3/bin:$PATH"
+
 export PATH="${LOCAL_APPS_PATH}:{$PATH}"
 
 export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home"
@@ -6,3 +8,6 @@ export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Ho
 ## docker compose
 alias dc="docker-compose"
 alias dcd="docker-compose up -d"
+
+## tmux
+alias tmuxc="tmux new-session -t workspace"
