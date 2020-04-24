@@ -33,7 +33,6 @@ brew install python3
 # conda python environment
 brew cask install anaconda
 
-
 # copy dotfiles
 cp .gitconfig .tmux.conf .zshrc.local .vimrc $HOME
 
@@ -46,6 +45,9 @@ cd fonts
 ./install.sh
 cd ..
 rm -rf fonts
+
+# install ssl
+brew install openssl
 
 # install gpg
 brew install gnupg
@@ -60,7 +62,8 @@ git config --global commit.gpgsign true
 git config --global gpg.program $(which gpg)
 echo "no-tty" >> ~/.gnupg/gpg.conf
 
-echo will install ssh keys
+echo "will install ssh keys"
+echo "enter email"
 email=read
 ssh-keygen -t rsa -b 4096 -C $email
 eval "$(ssh-agent -s)"
