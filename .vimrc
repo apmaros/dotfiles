@@ -271,7 +271,7 @@ endif
 set history=256  " Number of things to remember in history.
 set autowrite  " Writes on make/shell commands
 set nu  " Line numbers on
-set nowrap  " Line wrapping off
+set wrap linebreak nolist " Soft linewrap
 set timeoutlen=250  " Time to wait after ESC (default causes an annoying delay)
 set ignorecase smartcase
 set hlsearch
