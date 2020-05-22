@@ -23,8 +23,14 @@ List containing _some_ useful vim shortcuts to navigate, edit text and manage wi
 - `:%s/old/new/g` - replace all old with new with prompt
 - `:%s/old/new/gc` - replace all old with new
 
-## Window Management
-- `C - W - W` - next window
-- `C - W - v` - split window vertically
-- `C - W - s` - split window horizontally
+## Buffers
+Buffer is opened file in the window. It is possible to have multiple buffers opened at the same time.
+- `C-d` - close buffer with window
+- `C-b` - show all buffers
+
+## Windows
+Window is a container for one or more buffers
+- `C-w-w` - next window
+- `C-w-v` - split window vertically
+- `C-w-s` - split window horizontally
 

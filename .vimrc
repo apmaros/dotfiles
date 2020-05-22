@@ -111,10 +111,6 @@ inoremap jk <ESC>
 nnoremap <Space> :nohlsearch<cr>
 nnoremap <CR> :noh<CR><CR>
 
-
-" Runs the current spec file using Zeus
-nmap <leader>t :!zeus rspec %<CR>
-
 " No arrow keys
 noremap <Up> <nop>
 noremap <Down> <nop>
@@ -129,6 +125,10 @@ noremap <Right> <nop>
 nmap <Tab> :bnext<CR>
 nmap <S-Tab> :bprev<CR>
 
+" Close buffer
+nmap <C-d> :bdelete<CR>
+" Display all buffers
+nmap <C-b> :buffers<CR>
 
 " Opens Syntastic Errors window and jumps to it.
 map <M-e> :Errors<CR><C-w>j
@@ -151,16 +151,8 @@ vmap ac :Align :<CR>
 " Align blocks (or anything delimited by opening brackets)
 vmap ab :Align {<CR>
 
-" Run current test
-map <Leader>t :call RunCurrentTest()<CR>
-map <Leader>o :call RunCurrentLineInTest()<CR>
-
 " Save file as root
 cnoremap sudow w !sudo tee % >/dev/null
-
-"Clojure Stuff
-nnoremap <leader>E :%Eval<CR>
-nnoremap <leader>R :Require<CR>
 
 "=====================================================================
 " PLUGIN CONFIGURATIONS
