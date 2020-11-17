@@ -12,6 +12,7 @@ My choice of terminal is [iterm2](https://iterm2.com)
 | ------------- |:----------------------------------------|
 | ga            | git add                                 |
 | gcb           | git checkout -b                         |
+| gco	          | git checkout                            |
 | gfa           | git fetch --all --prune                 |
 | ggpush        |	git push origin "$(git_current_branch)" |
 | glgga         |	git log --graph --decorate --all        |
