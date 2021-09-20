@@ -43,7 +43,6 @@ Recommends and installs useful software for creative workspace
 ### Github
   - `gfr`  - rebases current branch on top of the main branch
   - `gfrc` - rebases current branch on top of the current branch in origin branch
-  - 
 
 ### K8
   - `k`  - kubectl
