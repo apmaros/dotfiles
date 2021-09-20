@@ -34,6 +34,23 @@ Recommends and installs useful software for creative workspace
   - upload new gpg key to github (gpg suite -> copy)
   - setup intellij shortcuts
 
+## Aliases
+
+### Docker
+  - `dc`  - `docker-compose`
+  - `dcd` - `docker-compose -up -d`
+
+### Github
+  - `gfr`  - rebases current branch on top of the main branch
+  - `gfrc` - rebases current branch on top of the current branch in origin branch
+  - 
+
+### K8
+  - `k`  - kubectl
+  - `kx` - kubectx
+  - `ks` - kubens
+
+
 ## IntelliJ custom shortuts
   - `C - Shift - \` - split vertically and move right
   - `C - Shift - '` - split horizontally
