@@ -37,5 +37,7 @@ Recommends and installs useful software for creative workspace
 ## IntelliJ custom shortuts
   - `C - Shift - \` - split vertically and move right
   - `C - Shift - '` - split horizontally
-  - `C - ]`         - go to next splitter
-  - `C - [`         - go to previouos splitter
+  - `C - ]`         - go to next splitter (tab)
+  - `C - [`         - go to previouos splitter (tab)
+  - `C - Shift - ]` - go to next window
+  - `C - Shift - ]` - go to previous window
