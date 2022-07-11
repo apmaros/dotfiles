@@ -65,4 +65,3 @@ Recommends and installs useful software for creative workspace
 - `echo foo | pbcopy` - copies "foo" to clipboard
 - `pbpaste` - prints copied content
 - `C-P` - prints copied content
-- 
