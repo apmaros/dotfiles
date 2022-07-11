@@ -1,13 +1,20 @@
+# set paths
 export PATH="/usr/local/bin:$PATH"
-export PATH="/usr/local/anaconda3/bin:$PATH"
 
-export PATH="${LOCAL_APPS_PATH}:{$PATH}"
-
-export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home"
-
-## docker compose
+# docker compose
 alias dc="docker-compose"
 alias dcu="docker-compose up -d"
 
-## tmux
+# tmux
 alias tmuxc="tmux new-session -t workspace"
+
+# Init pyenv
+## export pyenvs shims to path
+
+## pyenv install fails without these flags
+## https://github.com/pyenv/pyenv/issues/1877
+export LDFLAGS="-L/opt/homebrew/lib"; export CPPFLAGS="-I/opt/homebrew/include"
+export PYENV_ROOT="$HOME/.pyenv"
+
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
