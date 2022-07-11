@@ -3,30 +3,30 @@
 Recommends and installs useful software for creative workspace
 
 ## UI App Checklist
-  - chrome
-  - evernote
-  - lightroom
-  - photoshop
-  - spotify
-  - intellij
-  - pycharm
-  - xterm
-  - docker
-  - raindrop
-  - [gpgtools](https://gpgtools.org/)
-  - jdk 7, 8 and latest
+  - [ ] chrome
+  - [ ] evernote
+  - [ ] lightroom
+  - [ ] photoshop
+  - [ ] spotify
+  - [ ] intellij
+  - [ ] pycharm
+  - [ ] xterm
+  - [ ] docker
+  - [ ] raindrop
+  - [ ] [gpgtools](https://gpgtools.org/)
+  - [ ] jdk 7, 8 and latest
 
 ## Shell install
   install with `./setup.sh`
 
-  - xcode
-  - homebrew
-  - curl
-  - zsh (ohmyzsh)
-  - copies actual dotfiles
-  - tmux
-  - vim vundle
-  - fonts powerline
+  - [ ] xcode
+  - [ ] homebrew
+  - [ ] curl
+  - [ ] zsh (ohmyzsh)
+  - [ ] copies actual dotfiles
+  - [ ] tmux
+  - [ ] vim vundle
+  - [ ] fonts powerline
 
 ## Post installation
   - setup some of the powerline fonts as terminal (iTerm) font (iTerm2 -> preferences)
