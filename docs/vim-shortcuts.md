@@ -27,6 +27,9 @@ List containing _some_ useful vim shortcuts to navigate, edit text and manage wi
 Buffer is opened file in the window. It is possible to have multiple buffers opened at the same time.
 - `C-d` - close buffer with window
 - `C-b` - show all buffers
+- `C-p` - list files in project
+- `TAB` - list between buffers
+- `:e` - open file for edit, opens in a new buffer
 
 ## Windows
 Window is a container for one or more buffers
