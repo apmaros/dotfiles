@@ -52,10 +52,17 @@ Recommends and installs useful software for creative workspace
   - `ks` - kubens
 
 
-## IntelliJ custom shortuts
+## IntelliJ Custom Shortuts
   - `C - Shift - \` - split vertically and move right
   - `C - Shift - '` - split horizontally
   - `C - ]`         - go to next splitter (tab)
   - `C - [`         - go to previouos splitter (tab)
   - `C - Shift - ]` - go to next window
   - `C - Shift - ]` - go to previous window
+
+# Other Commands
+
+- `echo foo | pbcopy` - copies "foo" to clipboard
+- `pbpaste` - prints copied content
+- `C-P` - prints copied content
+- 
