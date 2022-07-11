@@ -4,13 +4,34 @@
 # setup
 ##
 
-echo you are about to install core software. Continue with Return
-echo installing Homebrew. This will install Xcode
-echo it will take a while. Ensure the internet connection is fast enough
+echo You are about to install core software using Homebrew.
+echo It may install Xcode if not yet installed.
+echo
+echo Instalation will take a while. Ensure the internet connection is fast enough.
+echo continue pressing Return
 read
+
+OSNAME=$(uname -s)
+
+if [[ "$OSNAME" != "Darwin" ]]
+then
+  echo "Error: Only Mac device is supported"
+  exit 1
+fi
+
+# check if M1 processor is used
+if [[ $(uname -m) == 'arm64' ]]; then
+  # pyenv install fails without these flags
+  # https://github.com/pyenv/pyenv/issues/1877
+  export LDFLAGS="-L/opt/homebrew/lib"; export CPPFLAGS="-I/opt/homebrew/include"
+fi
 
 # homebrew
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+# link nad activate brew
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
+eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # curl
 brew install curl
@@ -27,11 +48,23 @@ brew install jq
 # tmux
 brew install tmux
 
-# python and pip
-brew install python3
+# ansible
+brew install ansible
 
-# conda python environment
-brew cask install anaconda
+# better cat
+brew install bat
+
+# python and pip
+echo "Installing python suite"
+python -m ensurepip --upgrade
+brew install pyenv-virtualenv
+brew install virtualenv
+
+echo "Installing python 3.10.0"
+PYTHON_CURRENT_VERSION
+pyenv install $PYTHON_CURRENT_VERSION
+# use this version globally
+pyenv global $PYTHON_CURRENT_VERSION
 
 # copy dotfiles
 cp .gitconfig .tmux.conf .zshrc.local .vimrc $HOME
