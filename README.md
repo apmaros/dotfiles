@@ -24,6 +24,7 @@ Recommends and installs useful software for creative workspace
   - [ ] homebrew
   - [ ] curl
   - [ ] zsh (ohmyzsh)
+  - [ ] python suite: pyenv, pyenv-virtualenv, virtualenv
   - [ ] copies actual dotfiles
   - [ ] tmux
   - [ ] vim vundle
