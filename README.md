@@ -23,7 +23,11 @@ Recommends and installs useful software for creative workspace
   - [ ] xcode
   - [ ] homebrew
   - [ ] curl
+  - [ ] gnupg
   - [ ] zsh (ohmyzsh)
+  - [ ] jq
+  - [ ] ansible
+  - [ ] bat
   - [ ] python suite: pyenv, pyenv-virtualenv, virtualenv
   - [ ] copies actual dotfiles
   - [ ] tmux
