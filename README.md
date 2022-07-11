@@ -2,7 +2,7 @@
 
 Recommends and installs useful software for creative workspace
 
-## UI install
+## UI App Checklist
   - chrome
   - evernote
   - lightroom
