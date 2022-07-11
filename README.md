@@ -36,7 +36,7 @@ Recommends and installs useful software for creative workspace
   - upload new gpg key to github (gpg suite -> copy)
   - setup github name and emal
     ```zsh
-      git config --global user.name "Maros Korinek"
+      git config --global user.name "FirstName LastName"
       git config --global user.email name@email.com
     ```
   - setup intellij shortcuts
