@@ -7,7 +7,7 @@ export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Ho
 
 ## docker compose
 alias dc="docker-compose"
-alias dcd="docker-compose up -d"
+alias dcu="docker-compose up -d"
 
 ## tmux
 alias tmuxc="tmux new-session -t workspace"
