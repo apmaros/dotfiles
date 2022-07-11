@@ -34,6 +34,11 @@ Recommends and installs useful software for creative workspace
   - setup some of the powerline fonts as terminal (iTerm) font (iTerm2 -> preferences)
   - ensure correct git email and name in ($HOME/.giconfig)
   - upload new gpg key to github (gpg suite -> copy)
+  - setup github name and emal
+    ```zsh
+      git config --global user.name "Maros Korinek"
+      git config --global user.email name@email.com
+    ```
   - setup intellij shortcuts
 
 ## Aliases
