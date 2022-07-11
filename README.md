@@ -13,6 +13,7 @@ Recommends and installs useful software for creative workspace
   - [ ] xterm
   - [ ] docker
   - [ ] raindrop
+  - [ ] git 
   - [ ] [gpgtools](https://gpgtools.org/)
   - [ ] jdk 7, 8 and latest
 
