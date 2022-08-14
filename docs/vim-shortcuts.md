@@ -37,3 +37,5 @@ Window is a container for one or more buffers
 - `C-w-v` - split window vertically
 - `C-w-s` - split window horizontally
 
+## Settings
+- `:set paste` - intend pasted content
