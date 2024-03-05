@@ -40,7 +40,7 @@ brew install curl
 brew install gnupg
 
 # zsh
-sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+brew install zsh
 
 # jq
 brew install jq
@@ -57,6 +57,7 @@ brew install bat
 # python and pip
 echo "Installing python suite"
 python -m ensurepip --upgrade
+brew install pyenv
 brew install pyenv-virtualenv
 brew install virtualenv
 
