@@ -7,11 +7,12 @@ Recommends and installs useful software for creative workspace
   - [ ] Notion
   - [ ] Lightroom
   - [ ] Photoshop
-  - [ ] Spotify
-  - [ ] intellij
-  - [ ] Pycharm
+  - [ ] [Spotify](https://open.spotify.com/)
+  - [ ] [IntelliJ](https://www.jetbrains.com/idea/)
+  - [ ] [Pycharm](https://www.jetbrains.com/pycharm/)
+  - [ ] [Visual Studio Code](https://code.visualstudio.com/)
   - [ ] Xterm
-  - [ ] Docker
+  - [ ] [Docker](https://www.docker.com/)
   - [ ] git 
   - [ ] [gpgtools](https://gpgtools.org/)
   - [ ] jdk 7, 8 and latest
