@@ -3,16 +3,15 @@
 Recommends and installs useful software for creative workspace
 
 ## UI App Checklist
-  - [ ] chrome
-  - [ ] evernote
-  - [ ] lightroom
-  - [ ] photoshop
-  - [ ] spotify
+  - [ ] Chrome
+  - [ ] Notion
+  - [ ] Lightroom
+  - [ ] Photoshop
+  - [ ] Spotify
   - [ ] intellij
-  - [ ] pycharm
-  - [ ] xterm
-  - [ ] docker
-  - [ ] raindrop
+  - [ ] Pycharm
+  - [ ] Xterm
+  - [ ] Docker
   - [ ] git 
   - [ ] [gpgtools](https://gpgtools.org/)
   - [ ] jdk 7, 8 and latest
