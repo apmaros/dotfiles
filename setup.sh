@@ -76,9 +76,11 @@ pyenv global $PYTHON_CURRENT_VERSION
 # copy dotfiles
 cp .gitconfig .tmux.conf .zshrc.local .vimrc $HOME
 # install vundle - plugin manager for Vim
-#git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+# Install plugins
+vim +PluginInstall +qall
 
-# install powerline fonts
+# Install powerline fonts
 git clone https://github.com/powerline/fonts.git --depth=1
 cd fonts
 ./install.sh
