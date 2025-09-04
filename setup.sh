@@ -58,21 +58,23 @@ brew install ansible
 # better cat
 brew install bat
 
+# Better terminal
+brew install --cask iterm2
+
 # python and pip
 echo "Installing python suite"
 brew install pyenv
 brew install pyenv-virtualenv
 brew install virtualenv
 
-echo "Installing python 3.12.2"
-PYTHON_CURRENT_VERSION=3.12.2
-# pyenv install $PYTHON_CURRENT_VERSION
+echo "Installing python 3.13.7"
+PYTHON_CURRENT_VERSION=3.13.7
+pyenv install $PYTHON_CURRENT_VERSION
 # use this version globally
-# pyenv global $PYTHON_CURRENT_VERSION
+pyenv global $PYTHON_CURRENT_VERSION
 
 # copy dotfiles
 cp .gitconfig .tmux.conf .zshrc.local .vimrc $HOME
-
 # install vundle - plugin manager for Vim
 #git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
